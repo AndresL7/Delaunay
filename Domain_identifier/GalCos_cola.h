@@ -1,0 +1,10 @@
+void load_cola(struct COLA *cola);
+void reinitialize_cola(struct COLA *cola);
+//int *reallocaCOLA(int *cola,int size_init);
+void encola(struct COLA *cola,int entrance);
+int desencola(struct COLA *cola);
+void load_cola_float(struct COLA_float *cola);
+void reinitialize_cola_float(struct COLA_float *cola);
+//int *reallocaCOLA(int *cola,int size_init);
+void encola_float(struct COLA_float *cola,float entrance);
+float desencola_float(struct COLA_float *cola);
